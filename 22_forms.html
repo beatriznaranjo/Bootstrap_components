@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>22. Forms</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <li>
+        <a class="nav-link nav-link-style-menu" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link nav-link-style-menu dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          >Go to component</a
+        >
+        <ul class="dropdown-menu dropdown-menu-style">
+          <li>
+            <a class="dropdown-item" href="1_accordion.html">1. Accordion</a>
+          </li>
+          <li><a class="dropdown-item" href="2_alerts.html">2. Alerts</a></li>
+          <li>
+            <a class="dropdown-item" href="3_notifications.html"
+              >3. Notifications</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="4_information.html"
+              >4. Information</a
+            >
+          </li>
+          <li><a class="dropdown-item" href="5_buttons.html">5. Buttons</a></li>
+          <li>
+            <a class="dropdown-item" href="6_cards.html">6. Card</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="7_carousel.html">7. Carousel</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="8_collapse.html">8. Collapse</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="9_dropdowns.html">9. Dropdowns</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="10_listgroup.html">10. List Group</a>
+          </li>
+          <li><a class="dropdown-item" href="11_modal.html">11. Modal</a></li>
+          <li>
+            <a class="dropdown-item" href="12_navs&tabs.html">12. Nav & Tabs</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="13_navbar.html">13. Navbar</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="14_offcanvas.html">14. Offcanvas</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="15_placeholders.html"
+              >15. Placeholders</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="16_popovers.html">16. Popovers</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="17_progress.html">17. Progress</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="18_scrollspy.html">18. Scrollspy</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="19_toast.html">19. Toast</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="20_tooltips.html">20. Tooltips</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="21_tables.html">21. Tables</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="22_forms.html">22. Form</a>
+          </li>
+        </ul>
+      </li>
+    </nav>
+    <section class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <h2 class="my-5 text-center">Forms</h2>
+          <p class="text-center">
+            Style and align horizontal or vertical forms. Store information of
+            your website users using interactive controls.
+          </p>
+          <div class="d-grid gap-3 pt-3 d-flex justify-content-center ">
+            <body class="bg-light">
+              <div class="container bg-dark text-white py-3">
+            
+          
+            <div class="row">
+              <div class="col-md-4 order-md-2 mb-4">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="yellow-title">Cart</span>
+                  <span class="badge badge-secondary badge-pill">3 items</span>
+                </h4>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item  d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Product 1</h6>
+                      <small class="text-dark">Description</small>
+                    </div>
+                    <span class="text-dark">$15.9</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Product 2</h6>
+                      <small class="text-black">Description</small>
+                    </div>
+                    <span class="text-black text-black">$8</span>
+                  </li>
+                  <li class="list-group-item  d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0 text-black">Product 3</h6>
+                      <small class="text-black">Description</small>
+                    </div>
+                    <span class="text-black">$5</span>
+                  </li>
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (USD)</span>
+                    <strong>$20</strong>
+                  </li>
+                </ul>
+          
+                
+              </div>
+              <div class="col-md-8 order-md-1">
+                <h4 class="mb-3 yellow-title">Billing address</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="firstName">First name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="lastName">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="mb-3">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="username" placeholder="Username" required>
+                      <div class="invalid-feedback" style="width: 100%;">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="youremail@example.com">
+                    <div class="invalid-feedback">
+                      Please enter a valid email address.
+                    </div>
+                  </div>
+          
+                  <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="Street address" required>
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+          
+                  <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Other signs">
+                  </div>
+          
+                  <div class="row">
+                    <div class="col-md-5 mb-3">
+                      <label for="country">Country</label>
+                      <select class="custom-select d-block w-100" id="country" required>
+                        <option value="">Choose</option>
+                        <option>Costa Rica</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid country.
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="state">Province</label>
+                      <select class="custom-select d-block w-100" id="state" required>
+                        <option value="">Choose...</option>
+                        <option>Puntarenas</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="zip">Zip</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Zip code required.
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="mb-4">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <label class="custom-control-label" for="same-address">I want to receive promos & notifications</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                  </div>
+                  <hr class="mb-4">
+          
+                  <h4 class="mb-3 yellow-title">Payment</h4>
+          
+                  <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                      <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                      <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                      <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                      <label class="custom-control-label" for="paypal">PayPal</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="cc-name">Name on card</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                      <small class="text-muted">Full name as displayed on card</small>
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="cc-number">Credit card number</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Credit card number is required
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-expiration">Expiration</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Expiration date required
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-cvv">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="mb-4">
+                  <button class="btn btn-primario btn-lg btn-block" type="submit">Continue to checkout</button>
+                </form>
+              </div>
+            </div>
+          
+          
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

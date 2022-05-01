@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    <title>Proyecto Final Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <li>
+        <a class="nav-link nav-link-style-menu" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link nav-link-style-menu dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          >Go to component</a
+        >
+        <ul class="dropdown-menu dropdown-menu-style">
+          <li>
+            <a class="dropdown-item" href="1_accordion.html">1. Accordion</a>
+          </li>
+          <li><a class="dropdown-item" href="2_alerts.html">2. Alerts</a></li>
+          <li>
+            <a class="dropdown-item" href="3_notifications.html"
+              >3. Notifications</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="4_information.html"
+              >4. Information</a
+            >
+          </li>
+          <li><a class="dropdown-item" href="5_buttons.html">5. Buttons</a></li>
+          <li>
+            <a class="dropdown-item" href="6_cards.html">6. Card</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="7_information.html">7. Carousel</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="8_buttons.html">8. Collapse</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="9_cards.html">9. Dropdowns</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="10_listgroup.html">10. List Group</a>
+          </li>
+          <li><a class="dropdown-item" href="11_modal.html">11. Modal</a></li>
+          <li>
+            <a class="dropdown-item" href="12_navs&tabs.html">12. Nav & Tabs</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="13_navbar.html">13. Navbar</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="14_offcanvas.html">14. Offcanvas</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="15_placeholders.html"
+              >15. Placeholders</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="16_popovers.html">16. Popovers</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="17_progress.html">17. Progress</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="18_scrollspy.html">18. Scrollspy</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="19_toast.html">19. Toast</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="20_tooltips.html">20. Tooltips</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="21_tables.html">21. Tables</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="22_forms.html">22. Form</a>
+          </li>
+        </ul>
+      </li>
+    </nav>
+    <header class="text-center main-header vh-100 d-flex align-items-center">
+      <div class="container-fluid">
+        <h1 class="header-title">Hi, I'm Beatriz.</h1>
+        <h2>Web Developer.</h2>
+        <p class="lead p-header">Scroll down to see 22 Bootstrap examples.</p>
+        <p>
+          <a
+            href="https://github.com/beatriznaranjo"
+            class="btn btn-primario my-2"
+            target="_blank"
+            >My GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/beatriz-naranjo/"
+            class="btn btn-secondary my-2"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="album py-5 album-background">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 g-3">
+            <!--1. Accordion-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/1-Accordion.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">1. Accordion</p>
+                  <p class="component-card-description">
+                    Accordions are useful for displaying information that
+                    expands/collapse vertically when clicked, allowing to
+                    summarize and split the content.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="1_accordion.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--2. Alerts-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/2-Alerts.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">2. Alerts</p>
+                  <p class="component-card-description">
+                    Provide contextual feedback messages for typical user
+                    actions with the handful of available and flexible alert
+                    messages.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="2_alerts.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--3. Notifications-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/3-Notifications.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">3. Notifications</p>
+                  <p class="component-card-description">
+                    Small items to show notifications: Badges can act as buttons
+                    and show countings and spinners indicate the loading status
+                    of a component.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="3_notifications.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--4. Information-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/4-Information.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">4. Information</p>
+                  <p class="component-card-description">
+                    Indicate the current page’s location within a navigational
+                    hierarchy and show pagination to indicate a series of
+                    related content exists across multiple pages.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="4_information.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--5. Buttons-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/5-Buttons.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">5. Buttons</p>
+                  <p class="component-card-description">
+                    Custom button styles for actions in forms, dialogs, and more
+                    with support for multiple sizes, states, and more.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="5_buttons.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--6. Card-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/6-Cards.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">6. Cards</p>
+                  <p class="component-card-description">
+                    Cards provide a flexible and extensible content container
+                    with multiple variants and options.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="6_cards.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--7. Carousel-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/7-Carousel.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">7. Carousel</p>
+                  <p class="component-card-description">
+                    A slideshow component for cycling through elements—images or
+                    slides of text—like a carousel.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="7_carousel.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--8. Collapse-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/8-Collapse.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">8. Collapse</p>
+                  <p class="component-card-description">
+                    The collapse is used to show and hide content. Buttons or
+                    anchors are used as triggers that are mapped to specific
+                    elements you toggle.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="8_collapse.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--9. Dropdowns-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/9-Dropdowns.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">9. Dropdowns</p>
+                  <p class="component-card-description">
+                    Dropdowns are toggleable, contextual overlays for displaying
+                    lists of links and more. They’re made interactive.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="9_dropdowns.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--10. List group-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/10-ListGroup.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">10. List group</p>
+                  <p class="component-card-description">
+                    List groups are a flexible and powerful component for
+                    displaying a series of content. It's possible to create
+                    actionable list group items with hover, disabled, and active
+                    states.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="10_listgroup.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--11. Modal-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/11-Modal.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">11. Modal</p>
+                  <p class="component-card-description">
+                    Modal plugin adds dialogs to your site for lightboxes, user
+                    notifications, or completely custom content.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="11_modal.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--12. Nav & Tabs-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/12-NavTabs.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">12. Nav & Tabs</p>
+                  <p class="component-card-description">
+                    The base navigation component provide a strong foundation
+                    for building all types of navigation components. It includes
+                    some style overrides (for working with lists), some link
+                    padding for larger hit areas, and basic disabled styling.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="12_navs&tabs.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--13. Nav Bar-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/13-Navbar.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">
+                    13. Navigation Bar
+                  </p>
+                  <p class="component-card-description">
+                    Powerful and responsive navigation header (or navbar).
+                    Support for branding, navigation, collapse and more.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="13_navbar.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--14. Offcanvas-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/14-Offcanvas.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">14. Offcanvas</p>
+                  <p class="component-card-description">
+                    Build hidden sidebars into your project for navigation,
+                    shopping carts, and more. Offcanvas is a sidebar component
+                    that can be toggled to appear from the left, right, or
+                    bottom edge of the viewport.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="14_offcanvas.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--15. Placeholders-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/15-Placeholders.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">15. Placeholders</p>
+                  <p class="component-card-description">
+                    Use loading placeholders for your components or pages to
+                    indicate something may still be loading. Placeholders can be
+                    used to enhance the experience of your application.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="15_placeholders.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--16. Popovers-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/16-Popovers.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">16. Popovers</p>
+                  <p class="component-card-description">
+                    Popovers are generally used to display additional
+                    information about any element and are displayed on click of
+                    mouse pointer over that element.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="16_popovers.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--17. Progress-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/17-Progress.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">17. Progress</p>
+                  <p class="component-card-description">
+                    Show custom progress bars featuring support for stacked
+                    bars, animated backgrounds, and text labels. A progress bar
+                    can be used to show a user how far along he/she is in a
+                    process.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="17_progress.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--18. Scrollspy-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/18-Scrollspy.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">18. Scrollspy</p>
+                  <p class="component-card-description">
+                    Automatically update navigation or list group components
+                    based on scroll position to indicate which link is currently
+                    active in the viewport.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="18_scrollspy.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--19. Toast-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/19-Toast.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">19. Toasts</p>
+                  <p class="component-card-description">
+                    Push notifications to your visitors with a toast, a
+                    lightweight and easily customizable alert message. Toasts
+                    are lightweight notifications designed to mimic the push
+                    notifications.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="19_toast.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--20. Tooltips-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/20-Tooltips.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">20. Tooltips</p>
+                  <p class="component-card-description">
+                    The Tooltip component is small pop-up box that appears when
+                    the user moves the mouse pointer over an element.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="20_tooltips.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--21. Tables-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/21-Tables.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">21. Tables</p>
+                  <p class="component-card-description">
+                    Responsive tables allow tables to be scrolled horizontally
+                    with ease. Make any table responsive across all viewports.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="21_tables.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--22. Forms-->
+            <div class="col-md-3">
+              <div class="card mb-4 shadow-sm h-100">
+                <div class="wrapper">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="asserts/22-Form.gif"
+                  />
+                </div>
+                <div class="card-body card-body-style">
+                  <p class="card-title component-card-name">22. Forms</p>
+                  <p class="component-card-description">
+                    Style and align horizontal or vertical forms. Store
+                    information of a user using interactive controls.
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <a
+                      type="button"
+                      class="btn btn-sm btn-outline-light justify-content-center"
+                      href="22_forms.html"
+                      target="_blank"
+                    >
+                      View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
