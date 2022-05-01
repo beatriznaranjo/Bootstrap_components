@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>3. Notifications</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <li>
+        <a class="nav-link nav-link-style-menu" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link nav-link-style-menu dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          >Go to component</a
+        >
+        <ul class="dropdown-menu dropdown-menu-style">
+          <li>
+            <a class="dropdown-item" href="1_accordion.html">1. Accordion</a>
+          </li>
+          <li><a class="dropdown-item" href="2_alerts.html">2. Alerts</a></li>
+          <li>
+            <a class="dropdown-item" href="3_notifications.html"
+              >3. Notifications</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="4_information.html"
+              >4. Information</a
+            >
+          </li>
+          <li><a class="dropdown-item" href="5_buttons.html">5. Buttons</a></li>
+          <li>
+            <a class="dropdown-item" href="6_cards.html">6. Card</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="7_carousel.html">7. Carousel</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="8_collapse.html">8. Collapse</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="9_dropdowns.html">9. Dropdowns</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="10_listgroup.html">10. List Group</a>
+          </li>
+          <li><a class="dropdown-item" href="11_modal.html">11. Modal</a></li>
+          <li>
+            <a class="dropdown-item" href="12_navs&tabs.html">12. Nav & Tabs</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="13_navbar.html">13. Navbar</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="14_offcanvas.html">14. Offcanvas</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="15_placeholders.html"
+              >15. Placeholders</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="16_popovers.html">16. Popovers</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="17_progress.html">17. Progress</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="18_scrollspy.html">18. Scrollspy</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="19_toast.html">19. Toast</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="20_tooltips.html">20. Tooltips</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="21_tables.html">21. Tables</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="22_forms.html">22. Form</a>
+          </li>
+        </ul>
+      </li>
+    </nav>
+    <section class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+          <h2 class="my-5 text-center">Notifications</h2>
+          <h3 class="my-5 text-center">Badges</h3>
+          <h6 class="my-4 text-center">
+            Read our latest content
+            <span class="badge bg-secondary">New</span>
+          </h6>
+          <h6 class="my-4 text-center">
+            Use bagdes inside buttons to show number notifications
+          </h6>
+          <div class="d-grid gap-3 d-flex justify-content-center">
+            <button type="button" class="btn btn-warning">
+              Check your inbox <span class="badge bg-primary">4</span>
+            </button>
+            <button type="button" class="btn btn-success">
+              Check your inbox
+              <span class="badge rounded-pill bg-warning text-dark">2</span>
+            </button>
+            <button type="button" class="btn btn-info position-relative">
+              Check your inbox
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                13
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+            <button type="button" class="btn btn-dark position-relative">
+              Check your inbox
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >
+                22
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+          </div>
+
+          <h6 class="my-4 text-center">Use bagdes to show status</h6>
+          <div class="d-grid gap-2 d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary position-relative">
+              New messages
+              <span
+                class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle"
+              >
+                <span class="visually-hidden">Online</span>
+              </span>
+            </button>
+            <button type="button" class="btn btn-secondary position-relative">
+              No new messages
+              <span
+                class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"
+              >
+                <span class="visually-hidden">Offline</span>
+              </span>
+            </button>
+          </div>
+          <h3 class="my-5 text-center">Spinners</h3>
+          <h6 class="my-4 text-center">Loading...</h6>
+          <!---->
+          <div class="d-grid gap-3 d-flex justify-content-center">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-success" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-danger" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-warning" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-info" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-light" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-dark" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+          <!--growing spinners-->
+          <div class="d-grid gap-3 py-3 d-flex justify-content-center">
+            <div class="spinner-grow text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-success" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-danger" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-warning" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-info" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-light" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-dark" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+          <!--Buttons-->
+          <div class="d-grid gap-3 py-3 d-flex justify-content-center">
+            <button class="btn btn-warning" type="button" disabled>
+              <span
+                class="spinner-border spinner-border-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Loading...</span>
+            </button>
+            <button class="btn btn-warning" type="button" disabled>
+              <span
+                class="spinner-border spinner-border-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              Loading...
+            </button>
+            <button class="btn btn-warning" type="button" disabled>
+              <span
+                class="spinner-grow spinner-grow-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Loading...</span>
+            </button>
+            <button class="btn btn-warning" type="button" disabled>
+              <span
+                class="spinner-grow spinner-grow-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              Loading...
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
